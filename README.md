@@ -2,9 +2,9 @@
 
 ## What it does
 - Builds Till + SE merged output using a raw Excel datetime join (DateKey + Client)
-- Optionally converts Service Sales report and enriches with services cost.xlsx
+- Converts Service Sales (required input) report and enriches with services cost.xlsx
 - Produces:
-  - One Excel output workbook (merged output + reconciliation + optional service output + optional cleaned tabs)
+  - One Excel output workbook (merged output + reconciliation + required service output + required cleaned tabs)
   - A ZIP of per-stylist PDFs, each containing:
     1) "{Stylist} Services"
     2) "{Stylist} Client Statement"
